@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Git Fusion Info
+Bundle-SymbolicName: com.perforce.gitfusion.info;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.perforce.gitfusion.info.Activator
+Bundle-Vendor: PERFORCE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jgit;bundle-version="3.0.0",
+ com.jcraft.jsch;bundle-version="0.1.46"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
